@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">EFTCompanion</string>
+
+    <string name="eft">Escape from Tarkov</string>
+    <string name="companion">Companion</string>
+
+    <string name="splash_text">Companion</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="sign_in">Войти</string>
+    <string name="exit">Выйти</string>
+
+    <string name="main_menu_news">Новости</string>
+    <string name="main_menu_other">Еще что-то</string>
+    <string name="main_menu_market">Барахолка</string>
+
+    <string name="auth_desc">Для использования приложения компаньона, авторизируйтесь, введя логин и пароль, используемые в игре</string>
+    <string name="auth_login_hint">Логин</string>
+    <string name="auth_password_hint">Пароль</string>
+
+    <string name="news_list_title">Новости</string>
+
+    <string-array name="shop_categories">
+        <item>Предметы для бартера</item>
+        <item>Снаряжение</item>
+        <item>Оружейные части и моды</item>
+        <item>Оружие</item>
+        <item>Боеприпасы</item>
+        <item>Провизия</item>
+        <item>Медикаменты</item>
+        <item>Ключи</item>
+        <item>Инфо предметы</item>
+        <item>Спецоборудование</item>
+        <item>Карты</item>
+        <item>Деньги</item>
+    </string-array>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/newsListFragment">
+
+    <fragment
+        android:id="@+id/newsListFragment"
+        android:name="ru.et.eftcompanion.ui.NewsList.NewsListFragment"
+        android:label="NewsListFragment">
+        <action
+            android:id="@+id/action_newsListFragment_to_newsFragment"
+            app:destination="@id/newsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="ru.et.eftcompanion.ui.News.NewsFragment"
+        android:label="NewsFragment"/>
+
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="ru.et.eftcompanion.ui.auth.AuthFragment"
+        android:label="AuthFragment"/>
+
+</navigation>
